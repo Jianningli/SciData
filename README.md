@@ -3,6 +3,8 @@ Python scripts to segment human skull bone from CT scan , clean the segmented sk
 
 ![example](https://github.com/jianning-li/Skull-Data-Processing/blob/master/images/example.PNG)
 
+To be finished...
+
 
 
 
