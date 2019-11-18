@@ -5,7 +5,12 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 
 
 ## skull data segmentation
-
+* **_dependency:_**   [pynrrd](https://pypi.org/project/pynrrd/), [pydicom](https://pydicom.github.io/pydicom/). 
+* **_installation:_**   `pip install pynrrd` , `pip install -U pydicom`
+* **_usage:_** \
+**_1._** change directory \
+**_2._** run in the command window:   `python segmentation.py`
+* **_note:_** the script can 
 
 ## skull data cleaning
 * **_dependency:_**   [3D connected component analysis](https://pypi.org/project/connected-components-3d/).
