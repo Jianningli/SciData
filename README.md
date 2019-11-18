@@ -7,10 +7,14 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 ## skull data cleaning
 * dependency:   [3D connected component analysis](https://pypi.org/project/connected-components-3d/).
 * installation:  pip install connected-components-3d
-* usage: 1. change  **_data_dir_** and **_save_dir_** to where you stored the original nrrd files and where you want to save the cleaned nrrd files to. 2. run in the command window:  python denoising.py
+* usage: 1. change  **_data_dir_** and **_save_dir_** to where you stored the original nrrd files and where you want to save the cleaned   nrrd files to. 2. run in the command window:  python denoising.py
 
 
-
+## artificial defect injection
+* dependency:   [PyMRT](https://pypi.org/project/pymrt/).
+* installation:  pip install pymrt
+* usage: **_1._** change  **_pair_list_:** 
+**_save_dir_** to where you stored the original nrrd files and where you want to save the cleaned   nrrd files to. **_2._** run in the command window:  python defectinject.py
 
 
 
