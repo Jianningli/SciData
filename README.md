@@ -1,5 +1,8 @@
 # Skull-Data-Processing
 Python/Matlab scripts to segment human skull bone from CT scan , clean the segmented skull, convert the skull volume to mesh and inject holes to the complete skull.
+* **_Python 3.6.8_**
+
+
 
 ## skull data segmentation
 
