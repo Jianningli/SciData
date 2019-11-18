@@ -10,9 +10,9 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 * **_dependency :_**   [pynrrd](https://pypi.org/project/pynrrd/), [pydicom](https://pydicom.github.io/pydicom/). 
 * **_installation :_**   `pip install pynrrd` , `pip install -U pydicom`
 * **_usage :_** \
-**_1._** change directory \
+**_1._** change the directory \
 **_2._** run in the command window:   `python segmentation.py`
-* **_note :_** the script can read dicom files exported directly from CT machine for segmentation and can also read nrrd files converted from dicom files using 3D Slicer. 
+* **_note :_** the script can read dicom files exported directly from CT machine for segmentation and can also read nrrd files converted from dicom files using 3D Slicer.  You need to specify the threshold for the skull segmentation, usually _100--max_ is recommended. 
 
 ## skull data cleaning
 * **_dependency :_**   [3D connected component analysis](https://pypi.org/project/connected-components-3d/).
