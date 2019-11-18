@@ -39,7 +39,7 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 ` `FV.faces=F;` \
 `FV.vertices=V;` \
 `Volume=polygon2voxel(FV,512,'none',true);` \
-`**_save Volume.mat to nrrd_**`
+_save Volume.mat to nrrd_  \
 `import scipy.io as sio `
 
 
