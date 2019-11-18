@@ -35,8 +35,8 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 
 * **_dependency :_**  [Polygon2Voxel](https://www.mathworks.com/matlabcentral/fileexchange/24086-polygon2voxel), [stlread](https://www.mathworks.com/matlabcentral/fileexchange/6678-stlread). 
 * **_usage :_** \
-`[F,V] = stlread('oc_from_pcl2.stl'); \
-` `FV.faces=F;` \
+`[F,V] = stlread('oc_from_pcl2.stl');`  \
+`FV.faces=F;` \
 `FV.vertices=V;` \
 `Volume=polygon2voxel(FV,512,'none',true);` \
 _save Volume.mat to nrrd_  \
