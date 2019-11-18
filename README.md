@@ -29,7 +29,9 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 
 ## create skull mesh model from .nrrd files
 * **_dependency :_**  [Open3D](http://www.open3d.org/), [scikit-image](https://scikit-image.org/), [PyMCubes](https://github.com/pmneila/PyMCubes).
-* **_installation :_**    `pip install open3d`  `pip install scikit-image`, `pip install --upgrade PyMCubes`
+* **_installation :_**    `pip install open3d`  `pip install scikit-image`  `pip install --upgrade PyMCubes`
+* **_usage :_** \
+`python nrrd2mesh.py`
 
 ## create voxel grid from mesh (matlab/python)
 
