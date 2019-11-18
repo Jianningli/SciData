@@ -13,14 +13,13 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 ## artificial defect injection
 * dependency:   [PyMRT](https://pypi.org/project/pymrt/).
 * installation:  pip install pymrt
-* usage: **_1._**  change  **_pair_list_:** where you storied the cleaned nrrd files (it's recommended that **_skull data cleaning_** performed before defect injection). **_defected_dir_:**  where to store the skull with defect to. **_implant_dir_:**  where to store the removed part (i.e., the implant) to. **_2._** run in the command window:  python defectinject.py
+* usage: **_1._**  change  **_pair_list_:** where you storied the cleaned nrrd files (it's recommended that **_skull data cleaning_** performed before defect injection). **_defected_dir_:**  where to store the skull with defect to. **_implant_dir_:**  where to store the removed part (i.e., the implant) to. **_2._** run in the command window:  'python defectinject.py'
 
 
 ## skull data segmentation
 
 > asdfds
-***
-asdfassdf
+
 
 
 
