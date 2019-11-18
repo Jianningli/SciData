@@ -51,7 +51,7 @@ _save Volume.mat to nrrd_  \
 `nrrd.write('volume.nrrd',volume.astype(float64))` 
 
 ***
-contact the author Jianning Li if you have any inquiries.
+Contact the author **_Jianning Li_** if you have any inquiries.
 
 
 
