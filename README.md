@@ -17,11 +17,9 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 * **_installation:_**   `pip install pymrt`
 * **_usage:_** \
 **_1._**  change  **_pair_list_:** where you storied the cleaned nrrd files (it's recommended that **_skull data cleaning_** performed before defect injection). **_defected_dir_:**  where to store the skull with defect to. **_implant_dir_:**  where to store the removed part (i.e., the implant) to. \
-**_2._** specify the size of defect to be injected into the skull. \
+**_2._** specify the size of defect to be injected into the skull. 128 recommended. \
 **_3._** run in the command window: `python defectinject.py`
 * **_note:_** the current code provide functionalities to generate cubic defect  `generate_cude(defect_size)` and spherical dfects `generate_sphere(defect_size)`
-
-``
 
 ## create skull mesh model from .nrrd files
 
