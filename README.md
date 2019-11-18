@@ -2,7 +2,7 @@
 Python/Matlab scripts to segment human skull bone from CT scan , clean the segmented skull, convert the skull volume to mesh and inject holes to the complete skull.
 * **_Python 3.6_**
 
-## skull data segmentation
+## segment skull from CT scan
 * **_dependency :_**   [pynrrd](https://pypi.org/project/pynrrd/), [pydicom](https://pydicom.github.io/pydicom/). 
 * **_installation :_**   `pip install pynrrd` , `pip install -U pydicom`
 * **_usage :_** \
@@ -33,7 +33,7 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 * **_usage :_** \
 `python nrrd2mesh.py`
 
-## create voxel grid from mesh (matlab/python)
+## voxelization : create voxel grid from mesh (matlab/python)
 
 * **_dependency :_**  [Polygon2Voxel](https://www.mathworks.com/matlabcentral/fileexchange/24086-polygon2voxel), [stlread](https://www.mathworks.com/matlabcentral/fileexchange/6678-stlread). 
 * **_usage :_** \
