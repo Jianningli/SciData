@@ -10,7 +10,7 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 * **_usage :_** \
 **_1._** change directory \
 **_2._** run in the command window:   `python segmentation.py`
-* **_note :_** the script can 
+* **_note :_** the script can read dicom files exported directly from CT machine for segmentation and can also read nrrd files converted from dicom files using 3D Slicer. 
 
 ## skull data cleaning
 * **_dependency :_**   [3D connected component analysis](https://pypi.org/project/connected-components-3d/).
