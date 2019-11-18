@@ -50,6 +50,9 @@ _save Volume.mat to nrrd_  \
 `volume=sio.loadmat('Volumen.mat')['Volume']` \
 `nrrd.write('volume.nrrd',volume.astype(float64))` 
 
+***
+contact the author Jianning Li if you have any inquiries.
+
 
 
 
