@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # directory of original nrrd files
     data_dir = "D:/skull-nrrd"
     data_list=glob('{}/*.nrrd'.format(data_dir))
-    # directory to save the cleaned nrrd file
+    # directory to save the segmented nrrd file
     save_dir = "D:/skull-nrrd/segmented/"
 
 	for i in range(len(data_list)):
