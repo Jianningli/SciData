@@ -1,8 +1,6 @@
 # Skull-Data-Processing
 Python/Matlab scripts to segment human skull bone from CT scan , clean the segmented skull, convert the skull volume to mesh and inject holes to the complete skull.
-* **_Python 3.6.8_**
-
-
+* **_Python 3.6_**
 
 ## skull data segmentation
 * **_dependency :_**   [pynrrd](https://pypi.org/project/pynrrd/), [pydicom](https://pydicom.github.io/pydicom/). 
@@ -30,6 +28,7 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 * **_note:_** the current code provide functionalities to generate cubic defect  `generate_cude(defect_size)` and spherical dfects `generate_sphere(defect_size)`.
 
 ## create skull mesh model from .nrrd files
+* **_dependency :_**
 
 ## create voxel grid from mesh (matlab/python)
 
@@ -42,7 +41,7 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 _save Volume.mat to nrrd_  \
 `import scipy.io as sio, import nrrd ` \
 `volume=sio.loadmat('Volumen.mat')['Volume']` \
-`nrrd.write('volume.nrrd',volume.astype(float64))` \
+`nrrd.write('volume.nrrd',volume.astype(float64))` 
 
 
 
