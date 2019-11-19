@@ -5,7 +5,7 @@ Python/Matlab scripts to segment human skull bone from CT scan , clean the segme
 * **_MeshLab v2016.12_**
 * **_ITK-SNAP 3.6.0_**
 * **_3D Slicer 4.8.1 r26813_**
-
+* **_Meshmixer 3.5.474 _**
 ## segment skull from CT scan
 * **_dependency :_**   [pynrrd](https://pypi.org/project/pynrrd/), [pydicom](https://pydicom.github.io/pydicom/). 
 * **_installation :_**   `pip install pynrrd` , `pip install -U pydicom`
