@@ -50,8 +50,17 @@ _save Volume.mat to nrrd_  \
 `volume=sio.loadmat('Volumen.mat')['Volume']` \
 `nrrd.write('volume.nrrd',volume.astype(float64))` 
 
+## STL files dimension calculation
+* **_dependency :_**  [Open3D](http://www.open3d.org/), [numpy-stl](https://pypi.org/project/numpy-stl/)
+* **_installation :_**    `pip install open3d`  `pip install numpy-stl`
+* **_usage :_** \
+`python stl_dimension.py`
+* **_note:_**  calculate the actual size of the STL files in millimeter (mm), which is the size of the 3D printed model.
+
+
+
 ***
-Contact the author **_Jianning Li_** if you have any inquiries.
+Contact **_Jianning Li_** if you have any inquiries.
 
 
 
