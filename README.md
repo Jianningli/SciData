@@ -61,7 +61,6 @@ _save Volume.mat to nrrd_  \
 
 
 ***
-Contact **_Jianning Li_** if you have any inquiries.
 
 
 
