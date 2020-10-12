@@ -6,6 +6,7 @@ import nrrd
 import os
 import scipy
 from skimage import measure, morphology
+
 def re_sample(image, current_spacing, new_spacing):
     resize_factor = current_spacing / new_spacing
     new_shape = image.shape * resize_factor
@@ -16,6 +17,7 @@ def re_sample(image, current_spacing, new_spacing):
     image_resized = scipy.ndimage.interpolation.zoom(image, actual_resize_factor)
 
     return image_resized, new_spacing
+
 if __name__ == '__main__':
     ct_data,ct_header=nrrd.read('000.nrrd')
 
