@@ -1,9 +1,10 @@
 
 
-[Synthetic skull bone defects for automatic patient-specific craniofacial implant design](https://www.nature.com/articles/s41597-021-00806-0)
+Synthetic skull bone defects for automatic patient-specific craniofacial implant design[paper](https://www.nature.com/articles/s41597-021-00806-0), [data](https://figshare.com/articles/dataset/Head_CT_collection_for_patient-specific_craniofacial_implant_PSI_design/12423872/1)
 
 Bibtex
-'''
+
+'
 @article{li2020synthetic,
   title={Synthetic Skull Bone Defects for automatic Patient-specific Craniofacial Implant Design},
   author={Li, Jianning and Schwarz-Gsaxner, Christina and Pepe, Antonio and Morais, Ana and Alves, Victor and von Campe, Gord and Wallner, J{\"u}rgen and Egger, Jan},
@@ -11,7 +12,7 @@ Bibtex
   year={2020},
   publisher={Nature Publishing Group}
 }
-'''
+'
 
 ------------------------------
 # Skull-Data-Processing
