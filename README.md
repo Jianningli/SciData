@@ -6,7 +6,8 @@ Bibtex
 ```
 @article{li2020synthetic,
   title={Synthetic Skull Bone Defects for automatic Patient-specific Craniofacial Implant Design},
-  author={Li, Jianning and Schwarz-Gsaxner, Christina and Pepe, Antonio and Morais, Ana and Alves, Victor and von Campe, Gord and Wallner, J{\"u}rgen and Egger, Jan},
+  author={Li, Jianning and Schwarz-Gsaxner, Christina and Pepe, Antonio and Morais, Ana and Alves, Victor and von Campe,
+  Gord and Wallner, J{\"u}rgen and Egger, Jan},
   journal={Scientific Data},
   year={2020},
   publisher={Nature Publishing Group}
