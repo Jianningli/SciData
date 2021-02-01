@@ -1,3 +1,19 @@
+
+
+[Synthetic skull bone defects for automatic patient-specific craniofacial implant design](https://www.nature.com/articles/s41597-021-00806-0)
+
+Bibtex
+'''
+@article{li2020synthetic,
+  title={Synthetic Skull Bone Defects for automatic Patient-specific Craniofacial Implant Design},
+  author={Li, Jianning and Schwarz-Gsaxner, Christina and Pepe, Antonio and Morais, Ana and Alves, Victor and von Campe, Gord and Wallner, J{\"u}rgen and Egger, Jan},
+  journal={Scientific Data},
+  year={2020},
+  publisher={Nature Publishing Group}
+}
+'''
+
+------------------------------
 # Skull-Data-Processing
 Python/Matlab scripts to segment human skull bone from CT scan , clean the segmented skull, convert the skull volume to mesh and inject holes to the healthy skull.
 * **_Python 3.6_**
